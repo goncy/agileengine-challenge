@@ -38,7 +38,7 @@ It took me like 3 and a half hours to do this because i lost a lot of time until
 I would really like to know if there is a better option to do this that i didn't think of, so please share it with me!
 
 ## Demo
-[Netlify hosted demo](https://agileengine-goncy.netlify.com)
+[Netlify hosted demo](https://agileengine-challenge.netlify.com)
 
 ## I don't like hosted demos
 Well, this app was bootstrapped with cra so you can just clone it and `yarn && yarn start` it
