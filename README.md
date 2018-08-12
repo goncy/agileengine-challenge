@@ -1,7 +1,7 @@
 # 👋 Hello world!
 Here I will leave some context about some of the horrible decisions I had to take and why:
-1. Mutating DOM elements outside React 😱
-```
+1. Mutating DOM elements outside React 😱:
+```javascript
 const {selection} = this.state;
 const selectedText = selection && selection.toString();
 
@@ -22,7 +22,7 @@ We want a controlled input with styles, so the problem here is that we use two d
 
 The problem with this is that we have a caret position mismatch between both data sources as the html version of it has way more characters, so, if we want to update the value in a "React way" it would be really complex, also, as we are updating the div value on blur, we lose the caret position because React doesn't find a relation between the previous value and the new value.
 
-2. Ugly styles
+2. Ugly styles:
 I didn't have much time and it was not a priority.
 
 ## Summing up
